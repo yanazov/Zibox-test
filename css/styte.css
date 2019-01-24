@@ -460,6 +460,9 @@ textarea{
    body{
       overflow-x: hidden;
    }
+   html {
+      overflow-x: hidden;
+  }
    header .container{
       padding: 0;
       margin: 0;
@@ -626,6 +629,12 @@ textarea{
    .poster{
       
       height: 320px;
+   }
+   .poster-btn{
+      width: 230px;
+      margin-top: 40px;
+      height: 50px;
+      line-height: 48px;
    }
    .poster-text{
       width: 90%;
