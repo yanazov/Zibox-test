@@ -42,10 +42,18 @@ $(document).ready(function(){
  $(document).on('click', '.slick-slide', function(){
     if($('body').width() > 1020){
       var id_modal = $(this).find('.spesialist-info').attr('data-target');
-      $(id_modal).modal('toggle')
+      $(id_modal).modal('toggle');
     }
     
 });
+
+
+
+
+
+
+
+
 $(document).on('click', '.btn-modal-close', function(){
    var id_modal = $(this).parent().parent().parent().attr('id');
   $('#'+id_modal).modal('hide')

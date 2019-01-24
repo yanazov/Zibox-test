@@ -9,6 +9,12 @@ h2{
 .mt-20{
    margin-top: 20px;
 }
+html{
+   
+ }
+ body{
+    /*padding-right: 0 !important;*/
+ }
 nav > ul > li > a:hover {
    border-bottom: 3px solid #ff0000;
 }
